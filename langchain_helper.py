@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import streamlit as st
 
-OPENAI_API_KEY= st.secrets["key"]
+openai_api_key= st.secrets["key"]
 
 def generate_stupid_names(name,gender):
     llm = OpenAI(temperature=0.6)
