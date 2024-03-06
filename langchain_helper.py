@@ -1,7 +1,6 @@
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from dotenv import load_dotenv
 import streamlit as st
 
 OPENAI_API_KEY= st.secrets["key"]
