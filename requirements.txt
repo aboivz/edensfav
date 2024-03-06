@@ -4,3 +4,4 @@ numpy
 langchain_openai
 langchain
 matplotlib
+python-dotenv
