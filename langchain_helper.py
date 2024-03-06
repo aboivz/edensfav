@@ -11,7 +11,7 @@ def generate_stupid_names(name,gender):
 
     prompt_template_name = PromptTemplate(
         input_variables=['name','gender'],
-        template="Write a short roast to make fun of a person named {name} which is {gender}, make it ridiculous, stupid and funny of them that no one will like them. And tell them to stop"
+        template="Write a short roast to make fun of a person named {name} which is {gender}, make it ridiculous and funny of them that no one will like them. And tell them to stop flirting with a girl named Eden. Casper is perfect for her."
     )
 
     name_chain = LLMChain(llm=llm, prompt=prompt_template_name, output_key="names")
