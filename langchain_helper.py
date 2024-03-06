@@ -4,8 +4,7 @@ from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import streamlit as st
 
-
-load_dotenv()
+OPENAI_API_KEY= st.secrets["key"]
 
 def generate_stupid_names(name,gender):
     llm = OpenAI(temperature=0.6)
