@@ -2,9 +2,9 @@ from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import streamlit as st
-from dotenv import load_dotenv
+import os
 
-load_dotenv()
+os.environ["OPENAI_API_KEY"] == st.secrets["keys"]
 
 def generate_stupid_names(name,gender):
     llm = OpenAI(temperature=0.6)
