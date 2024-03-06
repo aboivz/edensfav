@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 import streamlit as st
 import os
 
-os.environ["OPENAI_API_KEY"] == st.secrets["keys"]
+os.environ["OPENAI_API_KEY"] == st.secrets["key"]
 
 def generate_stupid_names(name,gender):
     llm = OpenAI(temperature=0.6)
