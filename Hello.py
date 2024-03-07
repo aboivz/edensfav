@@ -5,6 +5,8 @@ import os
 
 
 st.title("Casper's enemy roasting bot ")
+st.text("Notice: This is an aggressive bot that will roast it's target, all of the bot's answers is AI trained with none of Casper's interferences. So I'm not responsible for any of the target's emotional damages. But if it's someone who is flirting with Eden. Obiviously, I don't care lol. ")
+
 st.text("Upload an image of who is flirting u Eden : ")
 
 file_uploaded = st.file_uploader('Choose the file', type = ['jpg', 'png', 'jpeg'])
