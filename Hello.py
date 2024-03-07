@@ -14,7 +14,7 @@ if file_uploaded is not None:
         image = st.image(file_uploaded, caption=st.text('Casperz enemiez detected !!! :'))
 
 name = st.text_area(label="What is the name of this person ?")
-gender = st.text_area(label="Tell me somthing about this man/woman ?")
+gender = st.text_area(label="Tell me something about this man/woman ?")
 
 st.text("Bot's verdict :")
 st.button("Reset", type="primary")
